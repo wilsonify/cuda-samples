@@ -1,0 +1,4 @@
+
+add_executable(particle_test test.cu)
+set_target_properties(particle_test PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
+target_link_libraries(particle_test PRIVATE particles)
