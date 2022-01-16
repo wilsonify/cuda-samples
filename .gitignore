@@ -1,0 +1,6 @@
+
+build/
+
+*.o
+
+bin/x86_64/linux/release/
